@@ -118,7 +118,7 @@ blockquote {
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 28px;
-    line-height: 1;
+    line-height: 1.15;
     
 }
 
@@ -134,6 +134,7 @@ blockquote {
     gap: 16px;
     padding: 0 0 0 16px;
     font-size: 16px;
+    line-height: 1.35;
     
 }
 
@@ -166,6 +167,7 @@ blockquote {
 .intro__date {
     font-size: 16px;
     line-height: 1.2;
+    white-space: nowrap;
     
 }
 
@@ -174,12 +176,14 @@ blockquote {
     flex-direction: column;
     gap: 24px;
     margin-top: 24px;
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.35;
 }
 
 .card_theme_dark {
     color:#f5f5f5;
     background-color: #343434;
-    border-radius: 30px;
 }
 
 .card_theme_bright {
@@ -211,7 +215,12 @@ blockquote {
     margin: 8px auto;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 22 px;
+    line-height: 1.35;
+}
+
+.card__text {
+    font-size: 16px;
     line-height: 1.35;
 }
 
@@ -228,4 +237,32 @@ blockquote {
     align-items: flex-start;
     padding: 0;
     gap: 32px;
+}
+
+
+
+.card {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fee42a;
+    padding: 20px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer__links a {
+    color: #f5f5f5;
+    font-size: 14px;
+    line-height: 1.25;
+    text-decoration: none;
 }
