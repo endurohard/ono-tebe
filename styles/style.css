@@ -201,6 +201,7 @@ blockquote {
 .card__author {
     display: flex;
     width: 319px;
+    padding: 20px;
     flex-direction: column;
     gap: 8px;
 }
@@ -211,10 +212,10 @@ blockquote {
 }
 
 .card__title {
-    margin-top: 8px;
-    font-family: 'EB Garamond';
+    margin: 8px auto;
+    font-family: 'EB Garamond', serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 22 px;
     line-height: 1.35;
 }
 
@@ -235,7 +236,7 @@ blockquote {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    gap: 8px;
+    gap: 32px;
 }
 
 
