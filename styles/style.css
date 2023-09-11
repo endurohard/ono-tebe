@@ -227,7 +227,6 @@ blockquote {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    list-style: none;
 }
 
 .card__content {
